@@ -1,0 +1,232 @@
+
+[
+    {
+        "id": 1,
+        "name": "Scary movie",
+        "actors": [
+            "Ana Faris",
+            "Marlon Wayans",
+            "Shawn Wayans"
+        ],
+        "year": 2000,
+        "rating": 6.2,
+        "generes": [
+            "Comedy",
+            "Horror"
+        ],
+        "director": "Keenen Ivory Wayans"
+    },
+    {
+        "id": 2,
+        "name": "The Conjuring",
+        "actors": [
+            "Vera Farmiga",
+            "Patrick Wilson",
+            "Lili Taylor"
+        ],
+        "year": 2013,
+        "rating": 7.5,
+        "generes": [
+            "Horror",
+            "Mystery",
+            "Thriller"
+        ],
+        "director": "James Wan"
+    },
+    {
+        "id": 3,
+        "name": "American Pie",
+        "actors": [
+            "Jason Biggs",
+            "Chris Klein",
+            "Thomas Ian Nicholas",
+            "Alyson Hannigan",
+            "Seann William Scott"
+        ],
+        "year": 1999,
+        "rating": 7,
+        "generes": [
+            "Comedy"
+        ],
+        "director": "Paul Weitz"
+    },
+    {
+         "id": 4,
+        "name": "The Conjuring 2",
+        "actors": [
+            "Vera Farmiga",
+            "Patrick Wilson",
+            "Madison Wolfe"
+        ],
+        "year": 2016,
+        "rating": 7.4,
+        "generes": [
+            "Horror",
+            "Mystery",
+            "Thriller"
+        ],
+        "director": "James Wan"
+    },
+    {
+        "id": 5,
+        "name": "American Pie 2",
+        "actors": [
+            "Jason Biggs",
+            "Shannon Elizabeth",
+            "Alyson Hannigan",
+            "Chris Klein",
+            "Natasha Lyonne",
+            "Thomas Ian Nicholas",
+            "Tara Reid",
+            "Seann William Scott",
+            "Mena Suvari",
+            "Eddie Kaye Thomas"
+        ],
+        "year": 2001,
+        "rating": 6.4,
+        "generes": [
+            "Comedy"
+        ],
+        "director": "J.B. Rogers"
+    },
+    {
+        "id": 6,
+        "name": "American Wedding",
+        "actors": [
+            "Jason Biggs",
+            "Alyson Hannigan",
+            "Seann William Scott",
+            "Eddie Kaye Thomas",
+            "Thomas Ian Nicholas",
+            "January Jones",
+            "Eugene Levy"
+        ],
+        "year": 2003,
+        "rating": 6.3,
+        "generes": [
+            "Comedy"
+        ],
+        "director": "Jesse Dylan"
+    },
+    {
+        "id": 7,
+        "name": "American Reunion",
+        "actors": [
+            "Jason Biggs",
+            "Alyson Hannigan",
+            "Chris Klein",
+            "Thomas Ian Nicholas",
+            "Tara Reid",
+            "Seann William Scott",
+            "Mena Suvari",
+            "Eddie Kaye Thomas",
+            "John Cho",
+            "Jennifer Coolidge",
+            "Eugene Levy"
+        ],
+        "year": 2012,
+        "rating": 6.7,
+        "generes": [
+            "Comedy"
+        ],
+        "director": "Jon Hurwitz"
+    },
+    {
+        "id": 8,
+        "name": "The Conjuring: The Devil Made Me Do It",
+        "actors": [
+            "Patrick Wilson",
+            "Vera Farmiga",
+            "Ruairi O'Connor",
+            "Sarah Catherine Hook",
+            "Julian Hilliard",
+            "John Noble"
+        ],
+        "year": 2021,
+        "rating": 6.3,
+        "generes": [
+            "Horror",
+            "Mystery",
+            "Thriller"
+        ],
+        "director": "Michael Chaves"
+    },
+    {
+        "id": 9,
+        "name":"Dragon Ball Z: Battle of Gods",
+        "actors": [
+            "Masako Nozawa",
+            "Hiromi Tsuru",
+            "Ryô Horikawa",
+            "Masaharu Satô",
+            "Mayumi Tanaka",
+            "Toshio Furukawa",
+            "Tôru Furuya",
+            "Hikaru Midorikawa",
+            "Miki Itô",
+            "Naoko Watanabe"
+        ],
+        "year": 2013,
+        "rating": 7.2,
+        "generes": [
+            "Animation",
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Fantasy",
+            "Sci-Fi"
+        ],
+        "director": "Masahiro Hosoda"
+    },
+    {
+        "id": 10,
+        "name": "Dragon Ball Z: Resurrection 'F'",
+        "actors": [
+            "Masako Nozawa",
+            "Ryô Horikawa",
+            "Hiromi Tsuru",
+            "Masaharu Satô",
+            "Mayumi Tanaka",
+            "Toshio Furukawa",
+            "Tôru Furuya",
+            "Hikaru Midorikawa",
+            "Natsuki Hanae",
+            "Yûko Minaguchi"
+        ],
+        "year": 2015,
+        "rating": 7.3,
+        "generes": [
+            "Animation",
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Fantasy",
+            "Sci-Fi"
+        ],
+        "director": "Tadayoshi Yamamuro"
+    },
+    {
+        "id": 11,
+        "name": "Dragon Ball Z: Broly - The Legendary Super Saiyan",
+        "actors": [
+            "Bin Shimada",
+            "Masako Nozawa",
+            "Ryô Horikawa",
+            "Iemasa Kayumi",
+            "Masaharu Satô",
+            "Mayumi Tanaka",
+            "Toshio Furukawa",
+            "Takeshi Kusao",
+            "Kôhei Miyauchi",
+            "Naoko Watanabe"
+        ],
+        "year": 1993,
+        "rating": 7.5,
+        "generes": [
+            "Animation",
+            "Action",
+            "Sci-Fi"
+        ],
+        "director": "Shigeyasu Yamauchi"
+    }
+]
