@@ -32,3 +32,13 @@ export const newMovie = (newMovieEntry: NewMovieEntry): Movie => {
   movie.push(newMovie)
   return newMovie
 }
+
+export const updateMovie = (id: number, newMovieEntry: NewMovieEntry): Movie | undefined => {
+  const movieIndex = movie.findIndex((movie) => movie.id === id)
+  if (movieIndex === -1) return undefined
+  movie[movieIndex] = {
+    id,
+    ...newMovieEntry
+  }
+  return movie[movieIndex]
+}

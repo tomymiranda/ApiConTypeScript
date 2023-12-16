@@ -21,4 +21,10 @@ router.post('/newMovie', (req, res) => {
   res.json(newMovie)
 })
 
+router.put('/:id', (req, res) => {
+  const { name, actors, year, rating, generes, director } = req.body
+  const movie = movieServices.updateMovie(+req.params.id, { name, actors, year, rating, generes, director })
+  res.json(movie)
+})
+
 export default router
