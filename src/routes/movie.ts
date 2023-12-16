@@ -15,4 +15,10 @@ router.get('/movieDirector', (_req, res) => {
   res.send(movieServices.getAllMovieAndDirector())
 })
 
+router.post('/newMovie', (req, res) => {
+  const { name, actors, year, rating, generes, director } = req.body
+  const newMovie = movieServices.newMovie({ name, actors, year, rating, generes, director })
+  res.json(newMovie)
+})
+
 export default router

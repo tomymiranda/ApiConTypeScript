@@ -13,4 +13,5 @@ export interface Movie {
 
 export type MovieOnlyDirector = Pick<Movie, 'id' | 'name' | 'director'> // aca se define un tipo de dato que solo tiene id y name, y que consume de la interfaz padre TypePokemon
 
+export type NewMovieEntry = Omit<Movie, 'id'> // aca se define un tipo de dato que tiene todos los campos de la interfaz padre TypePokemon menos id
 // export type TypePokemonNames = Omit<TypePokemon, 'strongAgainst' | 'weakAgainst'> aca se define un tipo de dato que tiene todos los campos de la interfaz padre TypePokemon menos strongAgainst y weakAgainst

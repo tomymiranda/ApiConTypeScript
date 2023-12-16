@@ -1,4 +1,4 @@
-import { Movie, MovieOnlyDirector } from '../types'
+import { Movie, MovieOnlyDirector, NewMovieEntry } from '../types'
 import movieData from './movie.json'
 
 const movie: Movie[] = movieData // aca se setea el array q trae los datos de movie.json
@@ -24,5 +24,11 @@ export const getMovieByName = (name: string): Movie | undefined => {
   return movie.find((movie) => movie.name === name)
 }
 
-export const newMovie = (name: string, actors: string[], year: number, raiting: number, generes: string[], director: string): Movie => {
+export const newMovie = (newMovieEntry: NewMovieEntry): Movie => {
+  const newMovie = {
+    ...newMovieEntry,
+    id: movie.length + 1
+  }
+  movie.push(newMovie)
+  return newMovie
 }
