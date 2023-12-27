@@ -1,6 +1,6 @@
 import express from 'express'
 
-import typesPokemon from './routes/movie'
+import movie from './routes/movie'
 
 const app = express()
 app.use(express.json())// para recibir json
@@ -12,7 +12,7 @@ app.get('/prueba', (req, res) => {
   res.send('Hello world de prueba')
 })
 
-app.use('/api/typesPokemon', typesPokemon)
+app.use('/api/movie', movie)
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`)

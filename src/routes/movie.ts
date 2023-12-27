@@ -1,5 +1,6 @@
 import express from 'express'
 import * as movieServices from '../services/movieServices'
+import { toNewMovieData } from '../utils'
 const router = express.Router()
 
 router.get('/', (_req, res) => {
@@ -16,9 +17,16 @@ router.get('/movieDirector', (_req, res) => {
 })
 
 router.post('/newMovie', (req, res) => {
-  const { name, actors, year, rating, generes, director } = req.body
-  const newMovie = movieServices.newMovie({ name, actors, year, rating, generes, director })
-  res.json(newMovie)
+  try {
+    // const { name, actors, year, rating, generes, director } = req.body
+
+    const newMovieData = toNewMovieData(req.body)
+
+    const newMovie = movieServices.newMovie(newMovieData)
+    res.json(newMovie)
+  } catch (e: any) {
+    res.status(400).json(e.message)
+  }
 })
 
 router.put('/:id', (req, res) => {
