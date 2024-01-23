@@ -1,2 +1,1 @@
-ApiConTypeScript
-Api con typescript
+API con typeScript
